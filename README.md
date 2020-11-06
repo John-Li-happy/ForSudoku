@@ -11,16 +11,22 @@ A game designed for killing time when user feels boring. In the old days, it cou
 
 ## Logic History
 ### First Logic
-Step 1: Based on three rules, random numbers array *rowA* could been generated based on first rule(row). In *rowA* there are no repeated digits;
+Step 1: Random numbers array *rowA* could been generated based on *rule 1*(row). In *rowA* there are no repeated digits;
 
-Step 2: Then repeat *Step 1* 9 times, a 9 * 9 matrix *SectorA* is generated.
+Step 2: Then repeat *Step 1* 9 times, a 9 * 9 matrix *MatrixA* is generated.
 
-Step 3: Check *SectorA* is adaptable with *rule3*. If not, go back to *Step 1*
+Step 3: Check *MatrixA* is adaptable with *rule3*. If not, go back to *Step 1*
 
 For this logic it takes a lot redundant time of checking *rule 3* adapation. For the first valid matrix, spends me 6 hours. Then I move to the second one
 
 ### Second Logic 
-  
+Step 1: Random numbers array *rowA* could been generated based on *rule 1*(row). In *rowA* there are no repeated digits;
+        Then asdfsdafdsaf
+
+
+For this logic, there is still a pattern of the digits, especially for the attached ones. For playing it is fine, but as a developer there must be a better way. Then I move to the third one
+
+### Third Logic
 
 ## Techniques
  + Model-View-ViewModel(MVVM)
@@ -37,6 +43,8 @@ Swift 5.3
 Better experience with iPhone 8(4.7 inch) or larger devices 
 
 ## References
+
+
 
 ## Permission
 The main purpose of this project is to bring enjoyment to those who have spare time to cut, also to offer a good chance for developers who is also interested in iOS developing to discuss. This is an open source project, but it is not allowed to use it as any commercial-purposes.
