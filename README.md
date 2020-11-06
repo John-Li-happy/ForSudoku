@@ -1,2 +1,2 @@
 # ForSudoku
-A game for kill time before sleeping
+A game for killing time before sleeping
