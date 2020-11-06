@@ -5,8 +5,9 @@ For Sudoku is an open source sandbox game inspired by Sudoku
 A game designed for killing time when user feels boring. In the old days, it could always been found on newspaper entertainment section. 
 
 ### For beginners
-There are three rules to play this game
-- 
+ + Any row contains one of each number from 1 to 9;
+ + Any colume contains one of each number from 1 to 9;
+ + Any 3 * 3 grid contains one of each number from 1 to 9;
 
 ## Ligic History
 
