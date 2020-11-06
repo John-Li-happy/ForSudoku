@@ -10,10 +10,22 @@ A game designed for killing time when user feels boring. In the old days, it cou
  + Any 3 * 3 grid contains one of each number from 1 to 9;
 
 ## Logic History
+### First Logic
+Step 1: Based on three rules, random numbers array *rowA* could been generated based on first rule(row). In *rowA* there are no repeated digits;
+
+Step 2: Then repeat *Step 1* 9 times, a 9 * 9 matrix *SectorA* is generated.
+
+Step 3: Check *SectorA* is adaptable with *rule3*. If not, go back to *Step 1*
+
+For this logic it takes a lot redundant time of checking *rule 3* adapation. For the first valid matrix, spends me 6 hours. Then I move to the second one
+
+### Second Logic 
+  
 
 ## Techniques
  + Model-View-ViewModel(MVVM)
  + CoreData
+ + Delegation
  + Observation
  + UIkit
 
