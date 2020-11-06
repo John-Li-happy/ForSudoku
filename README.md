@@ -1,17 +1,21 @@
 # ForSudoku
-For Sudoku is an open source sandbox game inspired by Sudoku
+For Sudoku is an open source sandbox game
 
 ## Discription
 A game designed for killing time when user feels boring. In the old days, it could always been found on newspaper entertainment section. 
 
-### For beginners
+ - For beginners, there are three rules of sudoku
  + Any row contains one of each number from 1 to 9;
  + Any colume contains one of each number from 1 to 9;
  + Any 3 * 3 grid contains one of each number from 1 to 9;
 
-## Ligic History
+## Logic History
 
 ## Techniques
+ + Model-View-ViewModel(MVVM)
+ + CoreData
+ + Observation
+ + UIkit
 
 ## IDE
 Xcode 12.1 
