@@ -10,7 +10,7 @@ A game designed for killing time when user feels boring. In the old days, it cou
  + Any 3 * 3 grid contains one of each number from 1 to 9;
 
 ## Logic History
-### First Logic
+### First Logic: Random
 Step 1: Random numbers array *rowA* could been generated based on *rule 1*(row). In *rowA* there are no repeated digits;
 
 Step 2: Then repeat *Step 1* 9 times, a 9 * 9 matrix *MatrixA* is generated.
@@ -19,14 +19,20 @@ Step 3: Check *MatrixA* is adaptable with *rule3*. If not, go back to *Step 1*
 
 For this logic it takes a lot redundant time of checking *rule 3* adapation. For the first valid matrix, spends me 6 hours. Then I move to the second one
 
-### Second Logic 
-Step 1: Random numbers array *rowA* could been generated based on *rule 1*(row). In *rowA* there are no repeated digits;
-        Then asdfsdafdsaf
+### Second Logic: Shuffle 
+Step 1: Random numbers array *rowA* could been generated based on *rule 1*(row). In *rowA* there are no repeated digits; 
 
+Then shift *rowA* to 3 cells right, make *rowB*; shift *rowB* 3 cells right, make *rowC*
+ 
+Step 2: Shuffle and populate first three digit from *rowA* to *rowD*, and repeat three times, to make complete row. 
+
+The same logic happens in the rest of the rows. Then, *matrixA* will be estaplished.
+
+Step 3: Divide *matrixA* into 3 clomun blocks, and shuffle clolumes in each block.
 
 For this logic, there is still a pattern of the digits, especially for the attached ones. For playing it is fine, but as a developer there must be a better way. Then I move to the third one
 
-### Third Logic
+### Third Logic: Back-Tracing
 
 ## Techniques
  + Model-View-ViewModel(MVVM)
