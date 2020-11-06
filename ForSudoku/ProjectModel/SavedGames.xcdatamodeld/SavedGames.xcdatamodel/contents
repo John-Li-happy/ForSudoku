@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SavedGame" representedClassName=".SavedGame" syncable="YES">
+        <attribute name="addedMatrix" attributeType="Transformable" customClassName=".[[Int]]"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="originalMatrix" attributeType="Transformable" customClassName="[[Int]]"/>
+        <attribute name="persentage" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" customClassName=".[[Int64]]"/>
+    </entity>
+    <elements>
+        <element name="SavedGame" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>
