@@ -59,9 +59,8 @@ Better experience with iPhone 8(4.7 inch) or larger devices
 ## Permission
 The main purpose of this project is to bring enjoyment to those who have spare time to cut, also to offer a good chance for developers who is also interested in iOS developing to discuss. This is an open source project, but it is not allowed to use it as any commercial-purposes.
 
-![Start22](https://user-images.githubusercontent.com/63318597/98484379-ee54f900-21dc-11eb-8e7a-a71929c35237.gif)
-
 ![Start29](https://user-images.githubusercontent.com/63318597/98484410-1fcdc480-21dd-11eb-9194-d8ed8a41c0c9.gif)
+![Play29](https://user-images.githubusercontent.com/63318597/98484443-73d8a900-21dd-11eb-9bf6-0f331f9746ae.gif)
 
 
 <img width="340" alt="Screen Shot 2020-11-06 at 9 41 39 PM" src="https://user-images.githubusercontent.com/63318597/98484241-17c15500-21dc-11eb-9b2f-5adb2108153c.png">
