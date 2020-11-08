@@ -51,10 +51,16 @@ Swift 5.3
 
 Better experience with iPhone 8(4.7 inch) or larger devices 
 
+## Todos
+In sudoku puzzle solving, players always has to make decisions when there are multiple choices avaliable. To reduce the branches of *state tree*, it is easier for user if the solution of sudoku puzzle is unique. Meanwhile, this new soluton could not generate severe time issue.[3]
+
 ## References
 1. [Generating Sudoku Puzzles as an Inverse Problem.pdf](https://github.com/John-Li-happy/For2048/files/5502924/Generating.Sudoku.Puzzles.as.an.Inverse.Problem.pdf)
 
 2. [Sudoku_Creation_and_Grading.pdf](https://github.com/John-Li-happy/For2048/files/5502928/Sudoku_Creation_and_Grading.pdf)
+
+3. [ANewalgorithmforGeneratingUniqueSolutionSudoku.pdf](https://github.com/John-Li-happy/ForSudoku/files/5507207/ANewalgorithmforGeneratingUniqueSolutionSudoku.pdf)
+
 
 ## Permission
 The main purpose of this project is to bring enjoyment to those who have spare time to cut, also to offer a good chance for developers who is also interested in iOS developing to discuss. This is an open source project, but it is not allowed to use it as any commercial-purposes.
