@@ -62,5 +62,6 @@ The main purpose of this project is to bring enjoyment to those who have spare t
 
 ![StartScreen](https://user-images.githubusercontent.com/63318597/98484156-7e923e80-21db-11eb-9665-bfef2f7c73ff.gif)
 
+![PlayScreen](https://user-images.githubusercontent.com/63318597/98484201-c9ac5180-21db-11eb-82b6-babb5ab25cc3.gif)
 
 
