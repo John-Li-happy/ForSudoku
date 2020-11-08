@@ -1,8 +1,8 @@
 # ForSudoku
-For Sudoku is an open source sandbox game
+ForSudoku is an open source sandbox game based on logical placement of numbers.
 
 ## Discription
-A game designed for killing time when user feels boring. In the old days, it could always been found on newspaper entertainment section. 
+A game designed for killing time when user feels boring. In the old days, it could always been found on newspaper entertainment section. This game was inspired while the developer owned sleeping issues, this game helped the developer went into sleep very soon.
 
  - For beginners, there are three rules of sudoku
  + Any row contains one of each number from 1 to 9;
