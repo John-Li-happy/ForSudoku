@@ -61,7 +61,7 @@ The main purpose of this project is to bring enjoyment to those who have spare t
 
 ![Start29](https://user-images.githubusercontent.com/63318597/98484410-1fcdc480-21dd-11eb-9194-d8ed8a41c0c9.gif)
 ![Play29](https://user-images.githubusercontent.com/63318597/98484443-73d8a900-21dd-11eb-9bf6-0f331f9746ae.gif)
+![Saved29](https://user-images.githubusercontent.com/63318597/98484475-b5695400-21dd-11eb-8534-43d88d68d826.gif)
 
-
-<img width="340" alt="Screen Shot 2020-11-06 at 9 41 39 PM" src="https://user-images.githubusercontent.com/63318597/98484241-17c15500-21dc-11eb-9b2f-5adb2108153c.png">
+<img width="270" alt="Screen Shot 2020-11-06 at 9 41 39 PM" src="https://user-images.githubusercontent.com/63318597/98484241-17c15500-21dc-11eb-9b2f-5adb2108153c.png">
 
