@@ -75,15 +75,11 @@ class MainViewController: UIViewController {
         var alertController = UIAlertController()
         var alertAction = UIAlertAction()
         if viewModel.checkValidility() {
-            alertController = UIAlertController(title: "Congrates", message: "You ve passed this puzzle", preferredStyle: .alert)
-            alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in
-                //Later done
-            })
+            alertController = UIAlertController(title: "Congrates", message: "You ve passed this puzzle in \(timeCounter)", preferredStyle: .alert)
+            alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         } else {
             alertController = UIAlertController(title: "Sorry", message: "There are something wrong in your solution", preferredStyle: .alert)
-            alertAction = UIAlertAction(title: "Ok", style: .default, handler: { _ in
-                //Later done
-            })
+            alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         }
         alertController.addAction(alertAction)
         present(alertController, animated: true, completion: nil)
@@ -108,9 +104,9 @@ class MainViewController: UIViewController {
         var digitBase = [Int]()
         // create digit base
         for _ in 0..<9 { digitBase.append(9) }
-        for row in viewModel.originalMatrix {
-            for element in row where element != 0{ digitBase[element - 1] -= 1 }
-        }
+        
+        let _ = viewModel.originalMatrix.map{ $0.map{ if $0 != 0 { digitBase[$0 - 1] -= 1 } } }
+        let _ = viewModel.userAddedMatrix.map{ $0.map{ if $0 != 0 { digitBase[$0 - 1] -= 1 } } }
         
         // create string
         for element in 0..<digitBase.count {

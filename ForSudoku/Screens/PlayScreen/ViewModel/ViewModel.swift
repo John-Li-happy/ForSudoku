@@ -162,24 +162,40 @@ class ViewModel {
     }
 
     func checkValidility() -> Bool {
+        // complete matrix
+        var completeMatrix = [[Int]]()
+        
+        for _ in 0..<9 { completeMatrix.append([Int]()) }
+        for elementIndex in 0..<9 {
+            for _ in 0..<9 {
+                completeMatrix[elementIndex].append(0)
+            }
+        }
+        
+        for rowIndex in 0..<originalMatrix.count {
+            for elementIndex in 0..<originalMatrix[0].count {
+                completeMatrix[rowIndex][elementIndex] = originalMatrix[rowIndex][elementIndex] + userAddedMatrix[rowIndex][elementIndex]
+            }
+        }
+        
         let correctSet: Set = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         var checkingArray = [Int]()
         // Row check
-        for row in originalMatrix {
+        for row in completeMatrix {
             let rowSet = Set(row)
             if rowSet != correctSet { return false }
         }
         // Colume Check
-        for columeIndex in 0..<originalMatrix.count {
-            let columeArray: Set = Set(originalMatrix.map{ $0[columeIndex] })
+        for columeIndex in 0..<completeMatrix.count {
+            let columeArray: Set = Set(completeMatrix.map{ $0[columeIndex] })
             if columeArray != correctSet { return false }
         }
         // Sector Check
-        for columeCounter in stride(from: 0, to: originalMatrix.count, by: 3) {
-            for rowCounter in stride(from: 0, to: originalMatrix.count, by: 3) {
+        for columeCounter in stride(from: 0, to: completeMatrix.count, by: 3) {
+            for rowCounter in stride(from: 0, to: completeMatrix.count, by: 3) {
                 for sectorColumeCoutner in 0..<3 {
                     for sectorRowCounter in 0..<3 {
-                        checkingArray.append(originalMatrix[columeCounter + sectorColumeCoutner][rowCounter + sectorRowCounter])
+                        checkingArray.append(completeMatrix[columeCounter + sectorColumeCoutner][rowCounter + sectorRowCounter])
                     }
                 }
                 if Set(checkingArray) != correctSet { return false }
