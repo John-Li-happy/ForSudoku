@@ -59,7 +59,7 @@ In sudoku puzzle solving, players always has to make decisions when there are mu
 
 2. [Sudoku_Creation_and_Grading.pdf](https://github.com/John-Li-happy/For2048/files/5502928/Sudoku_Creation_and_Grading.pdf)
 
-3. [ANewalgorithmforGeneratingUniqueSolutionSudoku.pdf](https://github.com/John-Li-happy/ForSudoku/files/5507207/ANewalgorithmforGeneratingUniqueSolutionSudoku.pdf)
+3. [A New Algorithm for Generating Unique Solution Sudoku.pdf](https://github.com/John-Li-happy/ForSudoku/files/5507208/A.New.Algorithm.for.Generating.Unique.Solution.Sudoku.pdf)
 
 
 ## Permission
