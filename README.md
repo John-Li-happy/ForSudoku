@@ -52,7 +52,7 @@ Swift 5.3
 Better experience with iPhone 8(4.7 inch) or larger devices 
 
 ## Todos
-In sudoku puzzle solving, players always has to make decisions when there are multiple choices avaliable. To reduce the branches of *state tree*, it is easier for user if the solution of sudoku puzzle is unique. Meanwhile, this new soluton could not generate severe time issue.[3]
+In sudoku puzzle solving, players always has to make decisions when there are multiple choices avaliable. To reduce the branches of *state tree*, it is easier for player if the solution of sudoku puzzle is unique. Meanwhile, this new soluton could not generate severe time issues.[3]
 
 ## References
 1. [Generating Sudoku Puzzles as an Inverse Problem.pdf](https://github.com/John-Li-happy/For2048/files/5502924/Generating.Sudoku.Puzzles.as.an.Inverse.Problem.pdf)
