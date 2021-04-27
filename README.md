@@ -8,8 +8,9 @@ A game designed for killing time when user feels boring. In the old days, it cou
  + Any row contains one of each number from 1 to 9;
  + Any colume contains one of each number from 1 to 9;
  + Any 3 * 3 grid contains one of each number from 1 to 9;
-![download](https://user-images.githubusercontent.com/63318597/116277582-9d699a80-a753-11eb-8ea7-8d48a9acb08b.jpeg)
 
+
+![featuredImage](https://user-images.githubusercontent.com/63318597/116277791-d0139300-a753-11eb-85ab-534d8938d2a9.png)
 
 ## Logic History
 ### First Logic: Random to Fit
