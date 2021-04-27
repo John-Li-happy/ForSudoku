@@ -10,7 +10,8 @@ A game designed for killing time when user feels boring. In the old days, it cou
  + Any 3 * 3 grid contains one of each number from 1 to 9;
 
 
-![featuredImage](https://user-images.githubusercontent.com/63318597/116277791-d0139300-a753-11eb-85ab-534d8938d2a9.png)
+![featuredImage](https://user-images.githubusercontent.com/63318597/116277857-e28dcc80-a753-11eb-9564-c117a14b0129.png)
+
 
 ## Logic History
 ### First Logic: Random to Fit
